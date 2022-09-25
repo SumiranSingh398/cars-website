@@ -1,0 +1,1090 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.header{
+    max-height: 5vh;
+    min-height: 5vh;
+    width: 100%;
+    background-color: black;  
+}
+.header .grid-container{
+    position: absolute;
+    margin-left: 55px;
+    max-height: 5vh;
+    min-height: 5vh;
+    display: grid;
+    grid-column-gap: 5px;
+    grid-template-columns: auto auto auto auto auto;
+    background-color: black;
+}
+.header .grid-item {
+    size: 10px;
+    text-align: center;
+    background-color: rgb(100, 98, 98);
+    color: white;
+    width: 25px;
+    padding: 7px;
+    max-height: 2.9vh;
+    min-height: 2.9vh;
+  }
+.header .grid-item a{ 
+    text-decoration: none;
+    color: white;
+    
+}
+.header .rightside {
+    text-align: right;   
+}
+.rightside a
+{
+    text-decoration: none;
+    color: white;
+}
+.header .rightside ul li{
+    text-decoration: none;
+    display: inline-flex;
+    color: white;
+    padding-right: 40px;
+    width: 50px;
+    margin-top: 7px;
+    font-size: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    
+}
+.header .rightside ul i{
+    margin-top: 9px;
+}
+
+.fas{
+    size: 4px;
+    color: white;
+    
+}
+
+.zero{
+    background-color: red;
+    color: white;
+    width: 700px;
+    height:10px;
+}
+
+body
+{
+    background-color:white;  
+    width:100%; 
+}
+
+nav{
+    height: 85px;
+    width: 100%;
+    background-color:white;  
+}
+nav img{
+    margin-left: 30px;
+    padding: 20px;
+    position: absolute;
+    height: 30px;
+    width: 170px;
+    top:40px;
+}
+
+
+
+nav .menu {
+    position: absolute;
+    top:65px;
+    margin-left: 39%;
+    text-align: right;
+    color: black;  
+    
+}
+
+
+.menu ul li{
+    display:inline-flex;
+    list-style: none;
+    font-size: 12px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    padding: 25px;
+    margin-top: -20px;
+    text-align: center;
+    width: 60px;  
+}
+.menu ul li:hover
+{
+    background-color:white;
+}
+ 
+ 
+.menu ul li a
+{
+    text-decoration: none;
+    color: black;
+}
+
+
+.fa-angle-down{
+    color:black
+}
+
+.scroll1 .fa-cog{
+    position: absolute;
+    top:9px;
+    left:9px;
+    color: red;
+    font-size: small;
+    
+ }
+.scroll1{
+     height:30px;
+     width:30px;
+     background-color: white;
+     position:fixed;
+     overflow:visible;
+     z-index: 1;
+     border-style:hidden;
+     margin-left: 0.2%;
+ }
+
+ .carpic{
+    background:url("first.jpg");
+    width: 100%;
+    min-height: 50vh;
+    max-height: 66vh;
+    background-size: cover;
+    background-position: center;
+    opacity: 0.9;
+}
+.imgtext{
+    text-align: right;
+    position: relative;
+    line-height: 1.8em;
+    width:100%;
+    min-height: 50vh;
+    max-height: 66vh;
+    
+    
+}
+
+.imgtext h3{
+    margin-right: 60px;
+}
+.carpic p{
+     color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.imgtext .btn{
+    position: absolute;
+    top:270px;
+    right:60px;
+    width:120px;
+    display: inline-block;
+    background-blend-mode: normal;
+    padding:7px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    font-size: 12px;
+    text-decoration: none;
+    transition: background 0.5s;
+    background: transparent;
+    text-align: center;
+}
+
+.btn:hover{
+    background-color: #e81512;
+}
+
+.imgtext h2
+{
+    background-color: white;
+    height: 30px;
+    padding:4px 20px 2px 20px;
+    width: 30%;
+    text-align: right;
+    position:absolute;
+    top:145px;
+    margin-left: 845px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 28px;
+    
+}
+
+.imgtext ul
+{
+    list-style-type: none;
+    color: white;
+    margin-right: 60px;
+
+}
+
+
+.btn a{
+    text-decoration: none;
+    color:white;
+}
+
+
+.caracss{
+    margin:25px 0;
+    position: relative;
+    background-color: rgb(245, 239, 239);
+    width: 100%;
+    min-height: 150vh;
+    max-height: 200vh;
+    
+}
+.caracss .description{
+    position: absolute;
+    top:30px;
+    left:580px;
+}
+.caracss .line1{
+    position:absolute;
+    top: 44px;
+    margin-left: 25%;
+
+}
+.caracss .line2{
+    position:absolute;
+    top: 49px;
+    margin-left: 35%;
+}
+.caracss .para{
+    position: absolute;
+    word-wrap: break-word;
+    width:640px;
+    margin-left: 26.5%;
+    top:110px;
+}
+
+
+
+.rows
+{
+    float:left;
+    
+}
+
+
+ .container
+{
+    height:300px;
+    min-width:255px;
+    max-width: 255px;
+    background-color:white;
+    float: left;
+    margin: 40px 40px 40px 40px;
+    flex-basis: auto;
+    position: relative;
+    text-decoration: none;
+    top:180px;
+}
+
+.container .i h4 a{
+    text-decoration: none;
+    color: black;
+}
+
+.container img{
+    width:100%;
+    position: absolute;
+    height:200px
+}
+
+.container .i{
+
+    position: absolute;
+    top:210px;
+    margin-left: 10px;
+}
+
+.container  .review{
+    position: absolute;
+    top:25px;
+    min-width:255px;
+}
+
+
+.carpic2{
+    background:url("2ndheader.jpg");
+    background-repeat: no-repeat;
+    width: 100%;
+    min-height: 50vh;
+    max-height: 66vh;
+    background-size: cover;
+    background-position: center;
+    opacity: 0.9;
+    position: relative;
+}
+.overlay{
+    position: absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    background-color: rgb(26, 25, 25);
+    opacity: 0.5;
+    
+}
+.carpic2 .content{
+    max-width: 90%;
+    position: relative;
+    min-height: 40vh;
+    max-height: 56vh;
+    display:flex;
+    margin:auto;
+    top:50px;
+    
+}
+.content .num{
+    font-weight: bold;
+    color:white;
+}
+.carpic2 .f{
+    position: absolute;
+    margin-left: 0%;
+    width: 20%;
+    text-align: center;
+    line-height: 3em;
+    height: 20vh;
+    padding-top: 25px;
+    
+}
+.f i{
+    color: white;
+}
+.carpic2 .s{
+    position: absolute;
+    margin-left: 25%;
+    width: 20%;
+    
+    text-align: center;
+    line-height: 3em;
+    height: 20vh;
+    padding-top: 25px;
+}
+.s i{
+    color: white;
+}
+.carpic2 .t{
+    position: absolute;
+    margin-left: 50%;
+    width: 20%;
+    
+    text-align: center;
+    line-height: 3em;
+    height: 20vh;
+    padding-top: 25px;
+
+}
+
+.t i{
+    color: white;
+}
+.carpic2 .fo{
+    position: absolute;
+    margin-left: 75%;
+    width: 20%;
+    
+    text-align: center;
+    line-height: 3em;
+    height: 20vh;
+    padding-top: 25px;
+
+}
+.fo i{
+    color: white;
+}
+
+
+.show{
+    position:relative;
+    background-color:rgb(245, 239, 239) ;
+    width:100%;
+    height:70vh;
+}
+.top
+{
+  position: absolute; 
+  top: 20px; 
+  height: 50px;
+  width: 510px;background-color: white;
+  margin-left: 28%;
+  border-radius: 25px;
+  box-shadow: 2px 2px 2px rgb(167, 164, 164);
+}
+.top a{
+    text-decoration: none;
+    color: black;
+}
+
+.top .t1{
+    position: absolute;
+    height: 50px;
+    width: 170px;
+    margin-left: 0%;
+    border-radius: 25px;
+    background-color: white;
+}
+.t1 h3{
+    position: absolute;
+    top:18px;
+    margin-left: 25%;
+    font-size: small;
+}
+.t1:hover {
+    
+    background-color: red;
+}
+.t1 a:hover{
+    color:white;
+}
+
+.top .t2{
+    position: absolute;
+    height: 50px;
+    width: 170px;
+    margin-left: 33.5%;
+    border-radius: 25px;
+    background-color:white;
+}
+.t2 h3{
+    position: absolute;
+    top:18px;
+    margin-left: 25%;
+    font-size: small;
+}
+.t2:hover 
+{
+    
+    background-color: red;
+}
+.t2 a:hover{
+    color:white;
+}
+
+.top .t3{
+    position: absolute;
+    height: 50px;
+    width: 170px;
+    margin-left: 67%;
+    border-radius: 25px;
+    background-color:white;
+}
+.t3 h3{
+    position: absolute;
+    top:18px;
+    margin-left: 25%;
+    font-size: small;
+}
+.t3:hover{
+    
+    background-color: red;
+}
+.t3 a:hover{
+    color:white;
+}
+
+.show .r{
+    position: absolute;
+    float: left;
+    top:60px;
+}
+.show .c{
+    position: relative;
+    float: left;
+    margin-left: 20px;
+    height:300px;
+    min-width:255px;
+    max-width: 255px;
+    background-color:white;
+    margin: 90px 40px 40px 40px;
+}
+.c .i h4 a{
+    text-decoration: none;
+    color: black;
+}
+.c img{
+    width:100%;
+    position: absolute;
+    height:200px
+}
+.c .i{
+
+    position: absolute;
+    top:210px;
+    margin-left: 10px;
+}
+
+.c .review{
+    position: absolute;
+    top:25px;
+    min-width:255px;
+}
+
+
+
+.thirdheader{
+    background:url("3rdheader.jpg");
+    background-repeat: no-repeat;
+    width: 100%;
+    min-height: 50vh;
+    max-height: 66vh;
+    background-size: cover;
+    background-position: center;
+    opacity: 0.9;
+    position: relative;
+}
+.overlay{
+    position: absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    background-color: rgb(43, 41, 41);
+    opacity: 0.5;
+    
+}
+
+.thirdheader .pictext{
+    position: absolute;
+    top:85px;
+    line-height: 3em;
+    margin-left: 30%;
+    
+}
+
+.pictext h3{
+    margin-left: 30%;
+}
+
+.pictext h2
+{
+    font-size: 30px;
+    color: white;
+    
+}
+.pictext a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    
+}
+.thirdheader .btn1{
+    position: absolute;
+    margin-left: 25%;
+    display: inline-block;
+    background-blend-mode: normal;
+    padding-right: 20px;
+    padding-left: 20px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    font-size: 10px;
+    text-decoration: none;
+    transition: background 0.5s;
+    background: transparent;
+    height: 40px;
+    top: 110px;
+}
+
+.btn1:hover{
+    background-color: #e81512;
+}
+
+.thirdheader .btn2{
+    position: absolute;
+    margin-left: 52%;
+    display: inline-block;
+    background-blend-mode: normal;
+    padding-right: 20px;
+    padding-left: 20px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    font-size: 10px;
+    text-decoration: none;
+    transition: background 0.5s;
+    background: transparent;
+    height: 40px;
+    top: 110px;
+}
+
+.btn2:hover{
+    background-color: #e81512;
+}
+
+
+.freshitems{
+    position: relative;
+    background-color: rgb(245, 239, 239);
+    width: 100%;
+    min-height: 70vh;
+    max-height: 100vh;
+}
+.freshitems .description{
+    position: absolute;
+    top:20px;
+    left:50px;
+}
+.freshitems .line1{
+    position:absolute;
+    top: 47px;
+    margin-left: 0%;
+
+}
+.freshitems .line2{
+    position:absolute;
+    top: 53px;
+    margin-left: 0%;
+}
+.freshitems .para{
+    position: absolute;
+    word-wrap: break-word;
+    margin-left: 3.7%;
+    top:100px;
+}
+
+
+
+.fs{
+    display:none;
+}
+.fs .r{
+    position: absolute;
+    float: left;
+    top:60px;
+}
+.fs .c{
+    position: relative;
+    float: left;
+    margin-left: 50px;
+    height:300px;
+    min-width:255px;
+    max-width: 255px;
+    background-color:white;
+    margin: 90px 40px 40px 40px;
+}
+.c .i h4 a{
+    text-decoration: none;
+    color: black;
+}
+.c img{
+    width:100%;
+    position: absolute;
+    height:200px
+}
+.c .i{
+
+    position: absolute;
+    top:210px;
+    margin-left: 10px;
+}
+
+.c .review{
+    position: absolute;
+    top:25px;
+    min-width:255px;
+}
+.lbtn{
+    position: absolute;
+    top:250px;
+    margin-left: 1%;
+    border-radius: 50%;
+    width:23px;
+    height:23px;
+}
+.rbtn{
+    position: absolute;
+    top:250px;
+    margin-left: 96.5%;
+    border-radius: 50%;
+    width:23px;
+    height:23px;
+}
+
+.publicreview{
+    background:url("4thheader.jpg");
+    background-repeat: no-repeat;
+    width: 100%;
+    min-height: 70vh;
+    max-height: 80vh;
+    background-size: cover;
+    opacity: 0.9;
+}
+.publicreview .rev{
+    float: left;
+}
+
+.publicreview .rev .box{
+    position: relative; 
+    height:300px;
+    min-width:380px;
+    max-width: 380px;
+    background-color:white;
+    float: left;
+    margin-top: 75px;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom: 50px;
+    left:10px;
+    
+}
+.publicreview .rev .box .review{
+    word-wrap: break-word;
+    line-height: 1.5;
+    
+}
+.box h2{
+    margin: 15px;
+    font-size: 17px;
+    position: absolute;
+    top:11px;
+    color: black;
+}
+.box p{
+    position: absolute;
+    top:50px;
+    margin:15px;
+    color: grey;
+    
+    
+}
+.people{
+   
+    position: absolute;
+    top: 150px;
+    max-height: 120px;
+    min-height: 120px;
+    min-width: 305px;
+    max-width: 305px;
+    margin-left: 20px;
+    
+}
+
+.peoplepic img{
+    position: absolute;
+    top: 35px;
+    border-radius: 50%;
+    min-width: 100px;
+    max-width: 100px;
+
+}
+
+.peopleinfo{
+    position:absolute;
+    top: 35px;
+    margin-left: 35%;
+    min-width: 198px;
+    max-width: 198px;
+    bottom: 5px;
+    
+}
+.fa-quote-right{
+    position: absolute;
+    top:6px;
+    margin-left: 99%;
+    color: rgb(209, 203, 203);
+    font-size: 25px;
+}
+.peopleinfo h3{
+    position: absolute;
+    font-size:16px ;
+    top:6px;
+}
+.peopleinfo h2{
+    position: absolute;
+    margin-left: 0%;
+    font-size: 15px;
+    color:grey;
+    top:16px;
+}
+.peopleinfo .ic{
+    position: absolute;
+    color: rgb(236, 236, 28);
+    bottom:2px;
+} 
+
+.blog{
+    position:relative;
+    width:100%;
+    max-height: 110vh;
+    min-height: 110vh;
+    background-color:white;
+}
+
+.blog .description{
+    position: absolute;
+    top:50px;
+    left:580px;
+}
+.blog .line1{
+    position:absolute;
+    top: 44px;
+    margin-left: 25%;
+
+}
+.blog .line2{
+    position:absolute;
+    top: 49px;
+    margin-left: 35%;
+}
+.blog .para{
+    position: absolute;
+    word-wrap: break-word;
+    width:640px;
+    margin-left: 26.5%;
+    top:120px;
+}
+
+.block{
+    float: left;
+    position: relative;
+    background-color: white;
+    height:320px;
+    margin:38px;
+    min-width:340px;
+    max-width: 340px;
+    margin-left: 60px;
+    top:170px;
+    padding: 2px 2px 2px 2px; 
+    box-shadow: 0 3px 5px rgb(167, 164, 164);
+}
+.block img{
+    position: absolute;
+    height: 200px;
+    width: 98.5%;
+
+}
+.block .manimg img{
+        position: absolute;
+        border-radius: 50%;
+        margin-left: 285px;
+        top:180px;
+        width: fit-content;
+        height: 45px;
+}
+.block h2{
+    position: absolute;
+    top: 225px;
+    margin-left: 10px;
+}
+.block .blog1{
+    position: absolute;
+    top:260px;
+    margin-left: 10px;
+    min-width:320px;
+    max-width: 320px;
+    word-wrap: break-word;
+    background-color:white;
+    min-height: 50px;
+    max-height: 50px;
+    line-height: 1.4;
+    font-weight: 550;
+}
+.blog1 a{
+    text-decoration: none;
+    color: black;
+}
+.blog .brands{
+    position: relative;
+    width:100%;
+    height:180px;
+    background-color: rgb(245, 239, 239);
+    top:532px;
+}
+.left{
+    position: absolute;
+    top:50px;
+    margin-left: 4.3%;
+    line-height: 1.5;
+    
+}
+.brandlogo{
+    position:absolute;
+    top:20px;
+    bottom:20px;
+    margin-left: 37.1%;
+    width:790px;
+    height:140px;
+    
+
+}
+.brandlogo img{
+    float: left;
+    padding: 5px;
+    position: relative;
+    max-height: 119.1px;
+}
+
+
+.footer{
+    width:100%;
+    padding-bottom: 13rem;
+    background-color: white;
+    position: relative;
+
+}
+.f-r{
+    position: relative;
+    top:40px;
+    width:92%;
+    height:40vh;
+    color:black;
+    display:flex;
+    margin: 0 auto;
+    background-color: white;
+}
+.f-c1{
+    position: absolute; 
+    width:230px;
+    
+}
+.f-c1 img{
+    width:170px;
+}
+.footer .f-r .f-c1 .fc1-written {
+    word-wrap: break-word;
+    font-size: small;
+    color: gray;
+    line-height: 1.5em;
+}
+
+.f-r .f-c2{
+    position:absolute ;
+    margin-left: 30%;
+    top:10px;
+    list-style-type: none;
+}
+
+.f-c2 h4{
+    margin-bottom:1rem ;
+}
+.f-c2 ul {
+    list-style: none;
+    line-height: 1.5em; 
+}
+
+.f-c2 ul li i{
+    
+    height:30px;
+    width:40px;
+    border-radius: 50%;
+    size:2px;
+    text-align: center;
+    margin:5px;
+    color:white;
+    padding-top: 10px;
+}
+.f-c2 ul li a{
+    
+    text-decoration: none;
+    color: rgb(100, 98, 98);
+    top:2px;
+    font-size: small;
+}
+.f-c3 a{
+    text-decoration: none;
+    color: rgb(100, 98, 98);
+}
+.f-r .f-c3{
+    position:absolute ;
+    margin-left: 50%;
+    top:10px;
+}
+.f-c3 h4{
+    margin-bottom:1rem ;
+}
+.f-c3 ul {
+    list-style: none;
+    line-height: 2em;
+    
+}
+.f-c3 a{
+    text-decoration: none;
+    color: rgb(100, 98, 98);
+    font-size: small;
+}
+
+.f-r .f-emailform{
+    position:absolute ;
+    margin-left: 69.5%;
+    top:10px;
+    
+}
+.f-emailform h4{
+    font-size: large;
+    margin-bottom: 1rem;
+}
+.f-emailform p{
+    font-size: smalll;
+    line-height: 1.5em;
+    color:gray;
+    margin-bottom: 1.5rem;
+    font-size: small;
+}
+ #f-email{
+    width:290px;
+    height:40px;
+    background:rgb(235, 231, 231) ;
+    border:none;
+    padding-left: 10px;
+    margin-bottom: 1.5rem;
+}
+#f-emailbtn{
+    height:40px;
+    background-color: rgb(223, 6, 6);
+    width:70px;
+    color: white;
+    pointer-events: auto;
+    border:none;
+    cursor: pointer;
+    margin-bottom: 1.5rem;
+}
+.apps {
+    display: flex;
+}
+.apps li{
+    list-style-type: none;
+}
+.gplay img{
+    height: 50px;
+    width:50px;
+}
+.f-c1 .aplay img{
+    position: absolute;
+    top:100px;
+    margin-left: 30px;
+    height:90px;
+    width:90px;
+}
+.up{
+    top:4500px;
+    right:30px;
+    position:absolute;
+    padding-top: 7px;
+    height:40px;
+    width: 40px;
+    background-color:red;
+    opacity: 40%;
+    margin-left: 90%;
+    margin-bottom: -60%;
+    border: none;
+}
+.up a{
+    text-decoration: none;
+}
+
